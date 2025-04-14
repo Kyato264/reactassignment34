@@ -1,0 +1,59 @@
+.weekBar {
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Adjust height dynamically */
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.week-bar.overdue {
+    background-color: #963a3a; 
+    border: 2px solid #4e0a0a; 
+}
+
+.weekBar p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.taskList {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    max-height: 200px; /* Limit the height of the task list */
+    overflow-y: auto; /* Enable scrolling for long lists */
+    border: 1px solid;
+}
+
+.weekBar ul{
+    border: 2px solid;
+    border-color:white
+}
+
+.taskList li {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.taskList li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+}
+
+.overdue {
+    background: #963a3a;
+    border: 2px solid #4e0a0a
+}

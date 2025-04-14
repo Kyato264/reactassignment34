@@ -1,0 +1,148 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  height: 10%;
+  padding-bottom: 15px;
+}
+
+#search-bar {
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  height: 50%;
+  font-size: 100%;
+  font-weight: bold;
+}
+  .popup-global {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+.overdue {
+    background: #3d0000;
+}
+
+
+#priority-filter {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#status-filter {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+select{
+    width: 50%;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    flex-direction: row;
+    display: flex;
+}
+
+#filters-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  gap: 20px;            
+  height: auto;           
+  padding: 10px;        
+  font-size: 50%;
+}
+
+
+#task-text {
+  text-align: center;
+  color: white;
+  font-size: 100%;
+}
+
+#task-list-container {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%; 
+  overflow-y: auto; 
+}
+
+#week-bars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto; 
+  overflow-y: auto; 
+  width: 100%;
+}
+
+#task-list {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#task-list-screen {
+  padding: 20px;
+  padding-top: 0px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 80%;
+}
+
+#task-list li {
+  margin: 5px 0;
+  font-size: 16px;
+  color: white;
+}
+
+
+#search-bar {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+#high-priority-screen, #completed-tasks-screen{
+  text-align: center;
+}
+
+#completed-tasks-screen h2{
+  color:#ccc
+}
+
+#high-priority-screen h2{
+  color:#ccc
+}
+.SwipedTasked{
+  background-color: #ffffff;
+    color: #333;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
